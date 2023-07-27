@@ -16,6 +16,9 @@ class signupScreen extends StatefulWidget {
 }
 
 class _signupScreenState extends State<signupScreen> {
+
+  bool? isCheck = false;
+
   @override
   Widget build(BuildContext context) {
     return bgWidget(child: Scaffold(
@@ -54,8 +57,12 @@ child: Column(children: [
         children: [
           Checkbox(
             checkColor: redColor,
-            value: false, onChanged: (newvallue){
-
+            value: isCheck, onChanged: (newvallue){
+              
+              setState(() {
+                 isCheck = newvallue;
+              });
+             
           },
           ),
           10.widthBox,
@@ -93,7 +100,7 @@ child: Column(children: [
           )
         ],
       ),
-       ourButton(color: redColor ,title: signup , 
+       ourButton( color: isCheck== true ? redColor : fontGrey  ,title: signup , 
         tetxColor: Colors.white , onPress: (){}).box.width(context.screenWidth - 50).make(),
         5.heightBox,
         RichText(text: TextSpan(

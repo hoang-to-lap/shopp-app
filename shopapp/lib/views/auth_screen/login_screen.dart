@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shopapp/consts/consts.dart';
 import 'package:shopapp/consts/list.dart';
+import 'package:shopapp/views/auth_screen/home_screen/home_screen.dart';
 import 'package:shopapp/views/auth_screen/signup_screen.dart';
 import 'package:shopapp/widget_common/app_logo_widget.dart';
 import 'package:shopapp/widget_common/bg_widget.dart';
@@ -50,7 +51,7 @@ child: Column(children: [
         5.heightBox,
         // ourButton().box.width(context.screenWidth - 50).make(),
         ourButton(color: redColor ,title: login , tetxColor: Colors.white , onPress: (){
-         
+         Get.to(() => homeScreen());
         }).box.width(context.screenWidth - 50).make(),
         5.heightBox,
         createNewAccount.text.color(fontGrey).size(18).make(),

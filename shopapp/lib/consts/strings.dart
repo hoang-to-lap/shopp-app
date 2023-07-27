@@ -19,3 +19,7 @@ const nameHint = "Enter your name";
 const policy = "Privacy Policy";
 const term = " Term and Condition";
 const alreadyHaveAccount = " Already have account ? ";
+const home = " home"; 
+const category = " Category";
+const cart = "Cart" ;
+const account = "account";

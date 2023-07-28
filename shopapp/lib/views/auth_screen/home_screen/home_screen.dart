@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shopapp/consts/consts.dart';
 import 'package:shopapp/controller/home_controller.dart';
+import 'package:shopapp/views/auth_screen/home_screen/home_screen_main.dart';
+import 'package:shopapp/views/cartscreen/cart_screen.dart';
+import 'package:shopapp/views/categoryscreen/categoryscreen.dart';
+import 'package:shopapp/views/profilescreen/profile_screen.dart';
 
 class homeScreen extends StatefulWidget {
   const homeScreen({super.key});
@@ -19,11 +23,7 @@ BottomNavigationBarItem(icon: Image.asset(icCart ,width: 21,) , label : cart),
 BottomNavigationBarItem(icon: Image.asset(icProfile ,width: 21,) , label : account),
   ];
   var navBody = [
-    Container(color: Colors.blue,),
-     Container(color: Colors.amber,),
-
-      Container(color: Colors.purple,),
-       Container(color: Colors.cyan,),
+    Home_mainScreen(),CategoryScrenn(),cartScreen(),profileScreen()
   ];
 
   @override

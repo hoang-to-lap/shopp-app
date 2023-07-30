@@ -18,7 +18,13 @@ class MyApp extends StatelessWidget {
       title: 'Shopee',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.transparent,
-        appBarTheme: AppBarTheme(backgroundColor: Colors.transparent, ),
+        appBarTheme: AppBarTheme(
+          //to set apppbar icon
+          iconTheme: IconThemeData(
+            color: darkFontGrey,
+
+          ),
+          backgroundColor: Colors.transparent, ),
   
       ),
      home: SplashScreen(),

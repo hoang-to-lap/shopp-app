@@ -37,3 +37,14 @@ const boyGlasses = " Boy Glasses";
 const tShirt ="TShirts";
 const girlDress = "Girl Dress";
 const fuetureProduct = "Feature Product";
+// category
+const womenClothing = "Women Clothing";
+const menClothingFashion = "Men Clothing and Fashion";
+const comAccess = "Computer & Accessories";
+const automobile = "Automobile";
+const kidtoy = " Kid & Toys";
+const sport = "Sport";
+const jewelery = "Jewelery";
+const ceelphone = " Cell Phone";
+const furniture = " Furniture";
+

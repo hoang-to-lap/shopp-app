@@ -15,3 +15,6 @@ const categoryList = [
   womenDress , menClothingFashion ,comAccess,automobile,kidtoy,sport,jewelery,ceelphone,furniture
 ];
 const categoryImageList = [imgFc1,imgFc2,imgFc3,imgFc4,imgFc5,imgFc6,imgFc7,imgFc8,imgFc9];
+const iteamDetailButtonList = [video,review,sellerPolicy,returnPolicy,support];
+const profileButtonList = [wishlist,orders,message];
+const proflieButtonIcon = [icOrder,icOrders,icMessages];

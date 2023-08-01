@@ -48,3 +48,17 @@ const jewelery = "Jewelery";
 const ceelphone = " Cell Phone";
 const furniture = " Furniture";
 
+// item string
+
+const video = " Video";
+const review = "Review";
+const sellerPolicy = "Seller & Policy";
+const returnPolicy = "Return Policy";
+const support = "Support";
+const productYouMayLike = "Product you may also like";
+// logout
+const logout = "Logout";
+//profile string 
+const wishlist = " My Wishlist";
+const orders = " My orders";
+const message = "Messages";
